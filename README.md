@@ -1,6 +1,6 @@
 # E-Waste Collection & Recycling Management System
 
-Java Swing + MySQL (JDBC) desktop application — **IT19341 Introduction to OOPS and Java** project,
+Java Swing + MySQL (JDBC) desktop application — **CS23333 – Object Oriented Programming using Java & CS23332 – Database Management System** project,
 B.Tech Information Technology, Rajalakshmi Engineering College, Chennai.
 
 **Team:** Deveshwar (251001048) · K S Sree Vishal (251001264) · Vijay Karthik S (251001301) · Srihari S (251001268)

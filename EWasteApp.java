@@ -1,5 +1,5 @@
 /*
- * E-Waste Collection & Recycling Management System   (IT19341 - Introduction to OOPS and Java)
+ * E-Waste Collection & Recycling Management System   (CS23333 - Object Oriented Programming using Java and CS23332 - Database Management System)
  * Rajalakshmi Engineering College | Team: DEVESHWAR, K S SREE VISHAL, VIJAY KARTHIK S, SRIHARI S
  * 3 tiers: Swing screens -> DatabaseManager (logic + validation) -> MySQL (JDBC). All code is in this one file.
  */
@@ -502,14 +502,14 @@ class LoginScreen extends JFrame {
         JLabel text = new JLabel("<html><div style='width:300px'><span style='font-size:34px'><b>E-Waste</b></span><br>"
                 + "<span style='font-size:18px'>Collection &amp; Recycling<br>Management System</span><br><br>"
                 + "<span style='font-size:14px'>&bull; Schedule e-waste pickups from home<br>&bull; Track every request till RECYCLED<br>"
-                + "&bull; Help the planet, one device at a time<br><br><br>Rajalakshmi Engineering College<br>B.Tech IT | IT19341</span></div></html>");
+                + "&bull; Help the planet, one device at a time<br><br><br>Rajalakshmi Engineering College<br>B.Tech IT | CS23333 &amp; CS23332</span></div></html>");
         text.setForeground(Color.WHITE);
         brand.add(text);
         JPanel root = new JPanel(new GridLayout(1, 2));
         root.add(brand);
         root.add(buildLoginForm());
         add(root, BorderLayout.CENTER);
-        JLabel bar = new JLabel("  Database: MySQL (ewaste_db)  |  IT19341 - OOPS and Java");
+        JLabel bar = new JLabel("  Database: MySQL (ewaste_db)  |  CS23333 & CS23332 - OOP using Java and DBMS");
         bar.setForeground(Theme.MUTED);
         bar.setBorder(new EmptyBorder(6, 8, 6, 8));
         add(bar, BorderLayout.SOUTH);
